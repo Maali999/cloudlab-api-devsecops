@@ -38,7 +38,7 @@ jobs:
 
       - name: Authenticate with SonarQube Cloud
         id: sonar-auth
-        uses: SonarSource/sonarqube-auth-action@v1
+        uses: SonarSource/sonarqube-auth-action@bba0c5629afd26ab56e4e3b84d8c7639d24073e0 # v1.0.1
         with:
           export-env: false
 
