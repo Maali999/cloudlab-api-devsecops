@@ -64,3 +64,8 @@ jobs:
           exit-code: '1'
           vuln-type: 'os,library'
           severity: 'CRITICAL'
+
+      - name: Display GitHub OIDC identifiers
+        run: |
+          echo "Repository owner ID: ${{ github.repository_owner_id }}"
+          echo "Repository ID: ${{ github.repository_id }}"
